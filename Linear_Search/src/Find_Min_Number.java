@@ -30,7 +30,7 @@ public class Find_Min_Number {
             System.out.println("Array has no elements");
             return 0;
         }
-        
+
         for (int i = 0; i <arr.length ; i++) {
             if(arr[i]<min)
                 min=arr[i];
